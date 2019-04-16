@@ -13,6 +13,28 @@ date: 2019-04-09
 3. 你可以打开 [午后南杂](http://recoluan.gitlab.io) 来查看效果。
 :::
 
+## Use
+
+**Build**
+
+```bash
+npm run build
+
+# or
+
+yarn build
+```
+
+**Server**
+
+```bash
+npm run dev
+
+# or
+
+yarn dev
+```
+
 ## Play Together
 
 ### 0.x
@@ -36,34 +58,6 @@ date: 2019-04-09
 ### CLI
 
 还是衷心地希望能有更多的朋友参与进来，更快地去完善它。接下来时间允许的情况下，我会开源一款自动生成博客的脚手架，略过配置步骤，直接书写优质内容，这也是我后来逐渐形成的一种信念，就是希望能让这款主题，功能越完善，使用越来越简单。
-
-## 预览
-
-### 首页
-![home.png](https://upload-images.jianshu.io/upload_images/4660406-0bf9d91e9d289f75.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-### 分类页面
-![category.png](https://upload-images.jianshu.io/upload_images/4660406-8c7995d750c58536.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-### 标签页
-![tag.png](https://upload-images.jianshu.io/upload_images/4660406-39c0d47627869e3a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-### 文章页面
-![article.png](https://upload-images.jianshu.io/upload_images/4660406-a19cad487991409d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-### 加密登录页
-
-![password.png](https://upload-images.jianshu.io/upload_images/4660406-7d38dc78c16b7d48.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-### 时间轴
-
-![timeline.png](https://upload-images.jianshu.io/upload_images/4660406-1dc5a5fe6c03952e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-### 移动端
-![m.png](https://upload-images.jianshu.io/upload_images/4660406-7e2c78c48dd78284.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## License
 [MIT](https://github.com/recoluan/vuepress-theme-reco/blob/master/LICENSE)
