@@ -1,0 +1,14 @@
+{
+  "name": "vuepress-theme-reco-demo",
+  "version": "1.0.0",
+  "repository": "http://recoluan.gitlab.io/vuepress-theme-reco-doc",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.14.4",
+    "vuepress-theme-reco": "^0.3.11"
+  }
+}
