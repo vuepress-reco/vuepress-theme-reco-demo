@@ -10,22 +10,6 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'Categories', 
-        icon: 'reco-category',
-        items: [
-          { 
-            items: [
-              { text: 'Category1', link: '/categories/category1' }
-            ] 
-          },
-          { 
-            items: [
-              { text: 'Category2', link: '/categories/category2' }
-            ] 
-          }
-        ]
-      },
-      { text: 'Tags', link: '/tags/', icon: 'reco-tag' },
       { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
       { text: 'Contact', 
         icon: 'reco-message',
@@ -39,6 +23,17 @@ module.exports = {
         ]
       }
     ],
+    // 博客设置
+    blogConfig: {
+      category: {
+        location: 2, // 在导航栏菜单中所占的位置，默认2
+        text: 'Category' // 默认 “分类”
+      },
+      tag: {
+        location: 3, // 在导航栏菜单中所占的位置，默认3
+        text: 'Tag' // 默认 “标签”
+      }
+    },
     logo: '/head.png',
     // 搜索设置
     search: true,
@@ -46,10 +41,23 @@ module.exports = {
     // 自动形成侧边导航
     sidebar: 'auto',
     // 最后更新时间
-    lastUpdated: 'Last Updated', // string | boolean
+    lastUpdated: 'Last Updated',
     // 作者
     author: 'reco_luan',
-    // valine 设置 (if you need valine comment )
+    /**
+     * 密钥 (if your blog is private)
+     */
+
+    // keyPage: {
+    //   keys: ['your password'],
+    //   color: '#42b983',
+    //   lineColor: '#42b983'
+    // },
+
+    /**
+     * valine 设置 (if you need valine comment )
+     */
+
     // valineConfig: {
     //   appId: '...',// your appId
     //   appKey: '...', // your appKey
