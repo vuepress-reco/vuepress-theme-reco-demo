@@ -9,6 +9,6 @@
   },
   "devDependencies": {
     "vuepress": "^1.0.0-alpha.46",
-    "vuepress-theme-reco": "^1.0.0-alpha.15"
+    "vuepress-theme-reco": "^1.0.0-alpha.16"
   }
 }
