@@ -12,11 +12,13 @@ Blog demo for vuepress-theme-reco
 ## Experience
 
 ```bash
-# install cli
-npm install vuepress-theme-reco-cli -g
-
-# create your blog
+# create
+npx vuepress-theme-reco-cli init my-blog
+# or
+npm install  -g
 reco-cli init my-blog
+
+# install
 cd my-blog
 npm install
 
@@ -27,14 +29,16 @@ npm run dev
 npm run build
 ```
 
-if yarn
+**if yarn**
 
 ```bash
-# install cli
+# create
+npx vuepress-theme-reco-cli init my-blog
+#or
 yarn global add vuepress-theme-reco-cli
-
-# create your blog
 reco-cli init my-blog
+
+# install
 cd my-blog
 yarn install
 
