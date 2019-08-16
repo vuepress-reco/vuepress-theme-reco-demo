@@ -72,5 +72,14 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['@vuepress/pwa', '@vuepress/medium-zoom', 'flowchart']
+  plugins: [
+    '@vuepress/pwa': {
+      undatePopup: {
+        message: '发现新内容可用',
+        buttonText: '刷新'
+      }
+    }, 
+    '@vuepress/medium-zoom', 
+    'flowchart'
+  ]
 }  
