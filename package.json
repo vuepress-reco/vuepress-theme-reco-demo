@@ -1,0 +1,21 @@
+{
+  "name": "afternoon-grocery-store",
+  "version": "1.0.0",
+  "description": "recoluan's blog",
+  "main": "index.js",
+  "repository": "http://recoluan.gitlab.io",
+  "author": "reco_luan",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "1.0.3",
+    "vuepress-theme-reco": "1.0.8-alpha.3",
+    "@vuepress/plugin-medium-zoom": "1.0.0-alpha.0",
+    "vuepress-plugin-flowchart": "1.4.3",
+    "@vuepress/plugin-pwa": "1.0.0-alpha.3"
+  }
+}
