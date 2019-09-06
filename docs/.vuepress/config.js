@@ -25,6 +25,7 @@ module.exports = {
         ]
       }
     ],
+    type: 'blog',
     // 博客设置
     blogConfig: {
       category: {
@@ -73,12 +74,6 @@ module.exports = {
     lineNumbers: true
   },
   plugins: [
-    ['@vuepress/pwa', {
-      undatePopup: {
-        message: '发现新内容可用',
-        buttonText: '刷新'
-      }
-    }], 
     '@vuepress/medium-zoom', 
     'flowchart'
   ]
