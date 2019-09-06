@@ -2,13 +2,6 @@
 
 Blog demo for vuepress-theme-reco
 
-## Branch
-
-|Branch|VuePress|VuePress-theme-reco|
-|-|:-:|:-:|
-|demo/0.x|0.x|0.x|
-|demo/1.x|1.x|1.x|
-
 ## Experience
 
 **npx**
