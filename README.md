@@ -15,7 +15,7 @@ Blog demo for vuepress-theme-reco
 # create
 npx @vuepress-reco/theme-cli init my-blog
 # or
-npm install  -g
+npm install @vuepress-reco/theme-cli -g
 theme-cli init my-blog
 
 # install
