@@ -1,22 +1,22 @@
-# vuepress-theme-reco-cli
+# vuepress-theme-reco-demo
 
-Blog generation tool for vuepress-theme-reco 
+Blog demo for vuepress-theme-reco
 
-## Version
+## Branch
 
-|Version|VuePress|VuePress-theme-reco|
+|Branch|VuePress|VuePress-theme-reco|
 |-|:-:|:-:|
-|0.x|0.x|0.x|
-|1.x|1.x|1.x|
+|demo/0.x|0.x|0.x|
+|demo/1.x|1.x|1.x|
 
 ## Experience
 
 ```bash
 # create
-npx vuepress-theme-reco-cli init my-blog
+npx @vuepress-reco/theme-cli init my-blog
 # or
 npm install  -g
-reco-cli init my-blog
+theme-cli init my-blog
 
 # install
 cd my-blog
@@ -33,10 +33,10 @@ npm run build
 
 ```bash
 # create
-npx vuepress-theme-reco-cli init my-blog
+npx @vuepress-reco/theme-cli init my-blog
 #or
-yarn global add vuepress-theme-reco-cli
-reco-cli init my-blog
+yarn global add @vuepress-reco/theme-cli
+theme-cli init my-blog
 
 # install
 cd my-blog
