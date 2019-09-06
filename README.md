@@ -13,10 +13,10 @@ Blog demo for vuepress-theme-reco
 
 ```bash
 # create
-npx vuepress-theme-reco-cli init my-blog
+npx @vuepress-reco/theme-cli init my-blog
 # or
 npm install  -g
-reco-cli init my-blog
+theme-cli init my-blog
 
 # install
 cd my-blog
@@ -33,10 +33,10 @@ npm run build
 
 ```bash
 # create
-npx vuepress-theme-reco-cli init my-blog
+npx @vuepress-reco/theme-cli init my-blog
 #or
-yarn global add vuepress-theme-reco-cli
-reco-cli init my-blog
+yarn global add @vuepress-reco/theme-cli
+theme-cli init my-blog
 
 # install
 cd my-blog
