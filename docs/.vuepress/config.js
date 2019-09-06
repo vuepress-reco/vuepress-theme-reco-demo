@@ -4,8 +4,6 @@ module.exports = {
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ["link", { rel: "manifest", href: "/manifest.json" }],
-    // 更多配置可以参考 https://github.com/vuejs/vuepress/blob/master/packages/docs/docs/.vuepress/config.js
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
