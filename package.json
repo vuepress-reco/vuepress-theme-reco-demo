@@ -1,16 +1,13 @@
 {
   "name": "vuepress-theme-reco-demo",
   "version": "1.0.0",
-  "repository": "http://recoluan.gitlab.io/vuepress-theme-reco-doc",
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "1.0.1",
-    "vuepress-theme-reco": "1.0.8-alpha.3",
-    "@vuepress/plugin-medium-zoom": "1.0.3",
-    "vuepress-plugin-flowchart": "1.4.3"
+    "vuepress": "1.2.0",
+    "vuepress-theme-reco": "1.1.0"
   }
 }
