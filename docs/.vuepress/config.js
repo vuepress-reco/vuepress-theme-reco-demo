@@ -10,7 +10,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
+      { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       { text: 'Contact', 
         icon: 'reco-message',
         items: [
@@ -35,7 +35,21 @@ module.exports = {
         text: 'Tag' // 默认 “标签”
       }
     },
-    logo: '/head.png',
+    friendLink: [
+      {
+        title: '午后南杂',
+        desc: 'Enjoy when you can, and endure when you must.',
+        email: '1156743527@qq.com',
+        link: 'https://www.recoluan.com'
+      },
+      {
+        title: 'vuepress-theme-reco',
+        desc: 'A simple and beautiful vuepress Blog & Doc theme.',
+        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        link: 'https://vuepress-theme-reco.recoluan.com'
+      },
+    ],
+    logo: '/logo.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -45,6 +59,8 @@ module.exports = {
     lastUpdated: 'Last Updated',
     // 作者
     author: 'reco_luan',
+    // 作者头像
+    authorAvatar: '/avatar.png',
     // 备案号
     record: 'xxxx',
     // 项目开始时间
