@@ -11,6 +11,12 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/', icon: 'reco-home' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
+      { text: 'Docs', 
+        icon: 'reco-message',
+        items: [
+          { text: 'vuepress-reco', link: '/docs/theme-reco/' }
+        ]
+      },
       { text: 'Contact', 
         icon: 'reco-message',
         items: [
@@ -18,6 +24,14 @@ module.exports = {
         ]
       }
     ],
+    sidebar: {
+      '/docs/theme-reco/': [
+        '',
+        'theme',
+        'plugin',
+        'api'
+      ]
+    },  
     type: 'blog',
     // 博客设置
     blogConfig: {
@@ -49,7 +63,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    sidebar: 'auto',
+    // sidebar: 'auto',
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
