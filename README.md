@@ -7,41 +7,21 @@ Blog demo for vuepress-theme-reco
 **npx**
 
 ```
-npx @vuepress-reco/theme-cli init my-blog
+npx @vuepress-reco/theme-cli init
 ```
 
 **npm**
 
 ```bash
-# init
+# 初始化
 npm install @vuepress-reco/theme-cli -g
-theme-cli init my-blog
-
-# install
-cd my-blog
-npm install
-
-# run
-npm run dev
-
-# build
-npm run build
+theme-cli init
 ```
 
 **yarn**
 
 ```bash
-# init
+# 初始化
 yarn global add @vuepress-reco/theme-cli
-theme-cli init my-blog
-
-# install
-cd my-blog
-yarn install
-
-# run
-yarn dev
-
-# build
-yarn build
+theme-cli init
 ```
