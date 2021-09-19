@@ -28,9 +28,12 @@ export default defineUserConfig<DefaultThemeOptions>({
     navbar:
     [
       { text: 'Home', link: '/' },
+      { text: 'Categories', link: '/categories/reco/1/' },
+      { text: 'Tags', link: '/tags/tag1/1/' },
       { text: 'Docs',
         children: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/theme' }
+          { text: 'vuepress-reco', link: '/docs/theme-reco/theme' },
+          { text: 'aaa', link: '/blogs/other/guide' }
         ]
       },
     ],
