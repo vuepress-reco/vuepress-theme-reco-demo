@@ -11,7 +11,7 @@
     "biuld": "vuepress build ."
   },
   "dependencies": {
-    "vuepress": "next",
-    "vuepress-theme-reco": "next"
+    "vuepress": "2.0.0-beta.26",
+    "vuepress-theme-reco": "2.0.1-alpha.5"
   }
 }

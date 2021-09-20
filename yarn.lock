@@ -287,17 +287,17 @@
   version "2.0.1-alpha.1"
   resolved "https://registry.nlark.com/@vuepress-reco/core/download/@vuepress-reco/core-2.0.1-alpha.1.tgz?cache=0&sync_timestamp=1631808608132&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress-reco%2Fcore%2Fdownload%2F%40vuepress-reco%2Fcore-2.0.1-alpha.1.tgz#864f6670fcaefbf8b1dea055ff8562a57b1309a4"
 
-"@vuepress-reco/style-default@^2.0.1-alpha.2":
-  version "2.0.1-alpha.2"
-  resolved "https://registry.nlark.com/@vuepress-reco/style-default/download/@vuepress-reco/style-default-2.0.1-alpha.2.tgz#8af233b474834456c15b48f1bd37d453a4b5d520"
+"@vuepress-reco/style-default@^2.0.1-alpha.5":
+  version "2.0.1-alpha.5"
+  resolved "https://registry.nlark.com/@vuepress-reco/style-default/download/@vuepress-reco/style-default-2.0.1-alpha.5.tgz?cache=0&sync_timestamp=1632111838187&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress-reco%2Fstyle-default%2Fdownload%2F%40vuepress-reco%2Fstyle-default-2.0.1-alpha.5.tgz#982a416080bcddfbef4ef680fb73c2257f9bd02f"
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.3"
     "@vuepress-reco/core" "^2.0.1-alpha.1"
     tailwindcss "^2.1.1"
 
-"@vuepress-reco/vuepress-plugin-page@^2.0.1-alpha.1":
-  version "2.0.1-alpha.1"
-  resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-page/download/@vuepress-reco/vuepress-plugin-page-2.0.1-alpha.1.tgz?cache=0&sync_timestamp=1631808609993&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress-reco%2Fvuepress-plugin-page%2Fdownload%2F%40vuepress-reco%2Fvuepress-plugin-page-2.0.1-alpha.1.tgz#e7342785afabca477d678c2d92c1d06ec271d85c"
+"@vuepress-reco/vuepress-plugin-page@^2.0.1-alpha.5":
+  version "2.0.1-alpha.5"
+  resolved "https://registry.nlark.com/@vuepress-reco/vuepress-plugin-page/download/@vuepress-reco/vuepress-plugin-page-2.0.1-alpha.5.tgz?cache=0&sync_timestamp=1632111836112&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress-reco%2Fvuepress-plugin-page%2Fdownload%2F%40vuepress-reco%2Fvuepress-plugin-page-2.0.1-alpha.5.tgz#c3b8eec3b0dc2c34716c027756fbcf3667d4603d"
   dependencies:
     "@vuepress-reco/core" "^2.0.1-alpha.1"
 
@@ -3280,18 +3280,18 @@ vue@^3.2.3:
     "@vue/runtime-dom" "3.2.12"
     "@vue/shared" "3.2.12"
 
-vuepress-theme-reco@next:
-  version "2.0.1-alpha.3"
-  resolved "https://registry.nlark.com/vuepress-theme-reco/download/vuepress-theme-reco-2.0.1-alpha.3.tgz?cache=0&sync_timestamp=1632039007768&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvuepress-theme-reco%2Fdownload%2Fvuepress-theme-reco-2.0.1-alpha.3.tgz#e45b28383578e83d2f19a692d0a6ee540098a00a"
+vuepress-theme-reco@2.0.1-alpha.5:
+  version "2.0.1-alpha.5"
+  resolved "https://registry.nlark.com/vuepress-theme-reco/download/vuepress-theme-reco-2.0.1-alpha.5.tgz?cache=0&sync_timestamp=1632111836721&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvuepress-theme-reco%2Fdownload%2Fvuepress-theme-reco-2.0.1-alpha.5.tgz#97704ea48e019641277c281529cb6dab58d6016d"
   dependencies:
-    "@vuepress-reco/style-default" "^2.0.1-alpha.2"
-    "@vuepress-reco/vuepress-plugin-page" "^2.0.1-alpha.1"
+    "@vuepress-reco/style-default" "^2.0.1-alpha.5"
+    "@vuepress-reco/vuepress-plugin-page" "^2.0.1-alpha.5"
     "@vuepress/plugin-active-header-links" "2.0.0-beta.26"
     "@vuepress/plugin-git" "2.0.0-beta.26"
     "@vuepress/plugin-prismjs" "^2.0.0-beta.26"
     "@vuepress/plugin-search" "^2.0.0-beta.26"
 
-vuepress@next:
+vuepress@2.0.0-beta.26:
   version "2.0.0-beta.26"
   resolved "https://registry.nlark.com/vuepress/download/vuepress-2.0.0-beta.26.tgz#39fa19b44bea31203828fdc1ae203bf7fab5146a"
   dependencies:
