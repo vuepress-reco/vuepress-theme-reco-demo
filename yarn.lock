@@ -416,24 +416,24 @@
   version "2.0.1-alpha.1"
   resolved "https://registry.nlark.com/@vuepress-reco/core/download/@vuepress-reco/core-2.0.1-alpha.1.tgz?cache=0&sync_timestamp=1631808608132&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40vuepress-reco%2Fcore%2Fdownload%2F%40vuepress-reco%2Fcore-2.0.1-alpha.1.tgz#864f6670fcaefbf8b1dea055ff8562a57b1309a4"
 
-"@vuepress-reco/style-default@^2.0.1-alpha.6":
-  version "2.0.1-alpha.6"
-  resolved "https://registry.npmmirror.com/@vuepress-reco/style-default/download/@vuepress-reco/style-default-2.0.1-alpha.6.tgz#abbf41e5bbb3930fb97fc620d8a14cb9620b41cd"
-  integrity sha1-q79B5buzkw+5f8Yg2KFMuWILQc0=
+"@vuepress-reco/style-default@^2.0.1-alpha.7":
+  version "2.0.1-alpha.7"
+  resolved "https://registry.npmmirror.com/@vuepress-reco/style-default/download/@vuepress-reco/style-default-2.0.1-alpha.7.tgz#f585e06fe162c9805133eba7cf0dec0a01e37948"
+  integrity sha1-9YXgb+FiyYBRM+unzw3sCgHjeUg=
   dependencies:
     "@fortawesome/fontawesome-free" "^5.15.3"
     "@vuepress-reco/core" "^2.0.1-alpha.1"
-    "@vuepress-reco/vuepress-plugin-comments" "^2.0.1-alpha.6"
+    "@vuepress-reco/vuepress-plugin-comments" "^2.0.1-alpha.7"
     "@vuepress/plugin-back-to-top" "^2.0.0-beta.26"
     "@vuepress/plugin-nprogress" "^2.0.0-beta.26"
     postcss-each "^1.1.0"
     postcss-nested "^5.0.6"
     tailwindcss "^2.1.1"
 
-"@vuepress-reco/vuepress-plugin-comments@^2.0.1-alpha.6":
-  version "2.0.1-alpha.6"
-  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-2.0.1-alpha.6.tgz#c37ffef48290139d6fa749b1643e9ee4c707457e"
-  integrity sha1-w3/+9IKQE51vp0mxZD6e5McHRX4=
+"@vuepress-reco/vuepress-plugin-comments@^2.0.1-alpha.7":
+  version "2.0.1-alpha.7"
+  resolved "https://registry.npmmirror.com/@vuepress-reco/vuepress-plugin-comments/download/@vuepress-reco/vuepress-plugin-comments-2.0.1-alpha.7.tgz#804ed2f3d671afdde19b199d4863224a2dc9b4a6"
+  integrity sha1-gE7S89Zxr93hmxmdSGMiSi3JtKY=
   dependencies:
     "@vssue/api-bitbucket-v2" "^1.1.1"
     "@vssue/api-gitee-v5" "^1.4.4"
@@ -3893,12 +3893,12 @@ vue@^3.2.3:
     "@vue/runtime-dom" "3.2.12"
     "@vue/shared" "3.2.12"
 
-vuepress-theme-reco@2.0.1-alpha.6:
-  version "2.0.1-alpha.6"
-  resolved "https://registry.npmmirror.com/vuepress-theme-reco/download/vuepress-theme-reco-2.0.1-alpha.6.tgz#f8a7b219c46c9356aaef23e0e0f9275f49600c95"
-  integrity sha1-+KeyGcRsk1aq7yPg4PknX0lgDJU=
+vuepress-theme-reco@2.0.1-alpha.7:
+  version "2.0.1-alpha.7"
+  resolved "https://registry.npmmirror.com/vuepress-theme-reco/download/vuepress-theme-reco-2.0.1-alpha.7.tgz#e110abb6e4c799436a7c15d275dc49828403d62e"
+  integrity sha1-4RCrtuTHmUNqfBXSddxJgoQD1i4=
   dependencies:
-    "@vuepress-reco/style-default" "^2.0.1-alpha.6"
+    "@vuepress-reco/style-default" "^2.0.1-alpha.7"
     "@vuepress-reco/vuepress-plugin-page" "^2.0.1-alpha.5"
     "@vuepress/plugin-active-header-links" "2.0.0-beta.26"
     "@vuepress/plugin-git" "2.0.0-beta.26"

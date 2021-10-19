@@ -13,6 +13,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsBranch: 'main',
     docsDir: 'example',
     lastUpdatedText: '',
+    // series 为原 sidebar
     series: {
       '/docs/theme-reco/': [
         {
@@ -39,14 +40,14 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     // valineConfig 配置与 1.x 一致
     // valineConfig: {
-    //   appId: '...',
-    //   appKey: '...',
+    //   appId: 'jvc9s4BkJYQNOcpsbVTPMePe-gzGzoHsz',
+    //   appKey: 'Js91M9DfM9vPwVaUj7xdkbxh',
     //   placeholder: '填写邮箱可以收到回复提醒哦！',
     //   verify: true, // 验证码服务
-    //   // notify: true, //
+    //   // notify: true,
     //   recordIP: true,
-    //   showComment: false
-    // }
+    //   // hideComments: true // 隐藏评论
+    // },
   },
   // debug: true,
 })
