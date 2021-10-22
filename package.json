@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "vuepress dev .",
     "start": "vuepress dev .",
-    "biuld": "vuepress build ."
+    "build": "vuepress build ."
   },
   "dependencies": {
     "vuepress": "2.0.0-beta.26",
