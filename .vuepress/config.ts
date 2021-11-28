@@ -40,8 +40,8 @@ export default defineUserConfig<DefaultThemeOptions>({
     ],
     // valineConfig 配置与 1.x 一致
     // valineConfig: {
-    //   appId: 'jvc9s4BkJYQNOcpsbVTPMePe-gzGzoHsz',
-    //   appKey: 'Js91M9DfM9vPwVaUj7xdkbxh',
+    //   appId: 'xxx',
+    //   appKey: 'xxx',
     //   placeholder: '填写邮箱可以收到回复提醒哦！',
     //   verify: true, // 验证码服务
     //   // notify: true,
