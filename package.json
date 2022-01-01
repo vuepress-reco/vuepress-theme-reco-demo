@@ -11,7 +11,7 @@
     "build": "vuepress build ."
   },
   "dependencies": {
-    "vuepress": "2.0.0-beta.26",
-    "vuepress-theme-reco": "2.0.1-alpha.19"
+    "vuepress": "2.0.0-beta.32",
+    "vuepress-theme-reco": "2.0.1-alpha.21"
   }
 }
