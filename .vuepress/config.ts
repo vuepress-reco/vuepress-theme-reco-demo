@@ -34,7 +34,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       { text: 'Docs',
         children: [
           { text: 'vuepress-reco', link: '/docs/theme-reco/theme' },
-          { text: 'aaa', link: '/blogs/other/guide' }
+          { text: 'vuepress-theme-reco', link: '/blogs/other/guide' }
         ]
       },
     ],

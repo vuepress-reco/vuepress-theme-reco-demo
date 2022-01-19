@@ -1,15 +1,23 @@
 ---
 home: true
-heroImage: /logo.png
-heroImageStyle: {
-  maxWidth: '200px',
-  width: '100%',
-  display: block,
-  margin: '0 auto 2rem',
-  borderRadius: '1rem',
-}
-heroText: vuepress-theme-reco-next
-tagline: 继承 reco 主题的小梦想，来做件大事情。
+modules:
+  - BannerBrand
+  - MdContent
+  - Footer
+bannerBrand:
+  heroImage: /logo.png
+  heroImageStyle:
+    maxWidth: '200px'
+    width: '100%'
+    display: block
+    margin: '0 auto 2rem'
+    borderRadius: '1rem'
+  bgImage: '/bg.svg'
+  heroText: vuepress-reco
+  tagline: 一款 vuepress 主题容器，集成多种主题底层功能，快速生成主题风格。主题 2.0 的默认风格是原主题 1.0 迁移而来，更多风格正在路上，敬请期待。
+  buttons:
+    - { text: Guide, link: '/docs/guide/introduce' }
+    - { text: Default Style, link: '/docs/style-default-api/introduce', type: 'plain' }
 isShowTitleInHome: true
 actionText: About
 actionLink: /views/other/about
@@ -22,30 +30,27 @@ features:
   details: 吸引更多的朋友参与到开发中来，继续强大功能。
 ---
 
-# vuepress-theme-reco-demo
-
-Blog demo for vuepress-theme-reco
-
-## Experience
+## 快速开始
 
 **npx**
 
-```
+```bash
+# 初始化，并选择 2.x
 npx @vuepress-reco/theme-cli init
 ```
 
 **npm**
 
 ```bash
-# 初始化
-npm install @vuepress-reco/theme-cli -g
+# 初始化，并选择 2.x
+npm install @vuepress-reco/theme-cli@1.0.7 -g
 theme-cli init
 ```
 
 **yarn**
 
 ```bash
-# 初始化
-yarn global add @vuepress-reco/theme-cli
+# 初始化，并选择 2.x
+yarn global add @vuepress-reco/theme-cli@1.0.7
 theme-cli init
 ```
