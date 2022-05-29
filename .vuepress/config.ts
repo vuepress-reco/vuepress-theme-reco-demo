@@ -1,11 +1,11 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
+import recoTheme from 'vuepress-theme-reco'
 
-export default defineUserConfig<DefaultThemeOptions>({
+export default defineUserConfig({
   title: 'vuepress-theme-reco',
   description: 'Just playing around',
-  theme: 'reco',
-  themeConfig: {
+  theme: recoTheme({
     style: '@vuepress-reco/style-default',
     logo: '/logo.png',
     author: 'reco_luan',
@@ -102,6 +102,6 @@ export default defineUserConfig<DefaultThemeOptions>({
     //   recordIP: true,
     //   // hideComments: true // 隐藏评论
     // },
-  },
+  }),
   // debug: true,
 })
