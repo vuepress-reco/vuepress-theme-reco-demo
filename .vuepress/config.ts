@@ -93,15 +93,18 @@ export default defineUserConfig({
         },
       ],
     },
-    // valineConfig 配置与 1.x 一致
-    // valineConfig: {
-    //   appId: 'xxx',
-    //   appKey: 'xxx',
-    //   placeholder: '填写邮箱可以收到回复提醒哦！',
-    //   verify: true, // 验证码服务
-    //   // notify: true,
-    //   recordIP: true,
-    //   // hideComments: true // 隐藏评论
+    // commentConfig: {
+    //   type: 'valie',
+    //   // options 与 1.x 的 valineConfig 配置一致
+    //   options: {
+    //     // appId: 'xxx',
+    //     // appKey: 'xxx',
+    //     // placeholder: '填写邮箱可以收到回复提醒哦！',
+    //     // verify: true, // 验证码服务
+    //     // notify: true,
+    //     // recordIP: true,
+    //     // hideComments: true // 隐藏评论
+    //   },
     // },
   }),
   // debug: true,
