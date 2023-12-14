@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "vuepress": "2.0.0-rc.0",
-    "vuepress-theme-reco": "2.0.0-rc.1"
+    "vuepress-theme-reco": "2.0.0-rc.5"
   }
 }
