@@ -1,10 +1,13 @@
 import { defineUserConfig } from "vuepress";
-import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
+import { viteBundler } from '@vuepress/bundler-vite'
+import { webpackBundler } from '@vuepress/bundler-webpack'
 
 export default defineUserConfig({
   title: "vuepress-theme-reco",
   description: "Just playing around",
+  bundler: viteBundler(),
+  // bundler: webpackBundler(),
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
     logo: "/logo.png",
