@@ -9,7 +9,6 @@ export default defineUserConfig({
   bundler: viteBundler(),
   // bundler: webpackBundler(),
   theme: recoTheme({
-    style: "@vuepress-reco/style-default",
     logo: "/logo.png",
     author: "reco_luan",
     authorAvatar: "/head.png",
